@@ -1,6 +1,6 @@
 const Artist = require("../models").artist;
 
-exports.findAllArtists = (req, res) => {
+exports.findAllArtists = (req, res) =>  {
   Artist.find({})
   .then(data => {
     res.send(data);
