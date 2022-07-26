@@ -24,6 +24,7 @@ module.exports = (mongoose) => {
                 ],
               },
             ],
+              
             genres: [
               {
                 type: String,
